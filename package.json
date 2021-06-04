@@ -1,0 +1,25 @@
+{
+  "name": "webpack-typescript-jquery",
+  "version": "1.0.0",
+  "description": "simple webpack, typescript, jquery example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development --progress --color",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "script-loader": "^0.6.1",
+    "ts-loader": "^9.2.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
